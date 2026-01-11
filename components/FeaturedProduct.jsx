@@ -38,6 +38,8 @@ const FeaturedProduct = () => {
               src={image}
               alt={title}
               className="group-hover:brightness-75 transition duration-300 w-full h-auto object-cover"
+              width={400}
+              height={500}
             />
             <div className="group-hover:-translate-y-4 transition duration-300 absolute bottom-8 left-8 text-white space-y-2">
               <p className="font-medium text-xl lg:text-2xl">{title}</p>
@@ -45,7 +47,14 @@ const FeaturedProduct = () => {
                 {description}
               </p>
               <button className="flex items-center gap-1.5 bg-orange-600 px-4 py-2 rounded">
-                Buy now <Image className="h-3 w-3" src={assets.redirect_icon} alt="Redirect Icon" />
+                Buy now{" "}
+                <Image
+                  className="h-3 w-3"
+                  src={assets.redirect_icon}
+                  alt="Redirect Icon"
+                  width={12}
+                  height={12}
+                />
               </button>
             </div>
           </div>
