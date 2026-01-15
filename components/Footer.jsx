@@ -15,10 +15,10 @@ const Footer = () => {
             height={40}
           />
           <p className="mt-6 text-sm">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            QuickCart is your go-to e-commerce platform for a seamless shopping
+            experience. Discover a wide range of products, enjoy secure
+            transactions, and benefit from fast delivery. Shop with confidence
+            at QuickCart!
           </p>
         </div>
 
@@ -54,14 +54,14 @@ const Footer = () => {
           <div>
             <h2 className="font-medium text-gray-900 mb-5">Get in touch</h2>
             <div className="text-sm space-y-2">
-              <p>+1-234-567-890</p>
-              <p>contact@greatstack.dev</p>
+              <p>9342323149</p> 
+              <p>suhask6224@gmail.com</p> 
             </div>
           </div>
         </div>
       </div>
       <p className="py-4 text-center text-xs md:text-sm">
-        Copyright 2025 © GreatStack.dev All Right Reserved.
+        Copyright 2025 © QuickCart All Right Reserved.
       </p>
     </footer>
   );
